@@ -48,6 +48,7 @@ return packer.startup(function(use)
   use "nvim-telescope/telescope.nvim"
   use "nvim-telescope/telescope-media-files.nvim"
   use {"nvim-treesitter/nvim-treesitter", run = ":TSUpdate",}
+  use "windwp/nvim-autopairs"
 
   -- completion
   use "hrsh7th/nvim-cmp" -- The completion plugin
