@@ -51,6 +51,8 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs"
   use 'kyazdani42/nvim-web-devicons'
   use 'kyazdani42/nvim-tree.lua'
+  use "akinsho/bufferline.nvim"
+  use "moll/vim-bbye"
 
   -- completion
   use "hrsh7th/nvim-cmp" -- The completion plugin

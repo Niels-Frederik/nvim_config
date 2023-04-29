@@ -7,5 +7,7 @@ require "user.lsp"
 require "user.telescope"
 require "user.treesitter"
 require "user.autopairs"
+-- require "user.bufferline"
+require("bufferline").setup()
 require "user.nvim-tree"
 vim.cmd "colorscheme aurora"
