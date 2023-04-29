@@ -10,4 +10,5 @@ require "user.autopairs"
 -- require "user.bufferline"
 require("bufferline").setup()
 require "user.nvim-tree"
+require "user.toggleterm"
 vim.cmd "colorscheme aurora"
