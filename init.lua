@@ -8,6 +8,7 @@ require "user.telescope"
 require "user.treesitter"
 require "user.autopairs"
 -- require "user.bufferline"
+require "user.lualine"
 require("bufferline").setup()
 require "user.nvim-tree"
 require "user.toggleterm"
