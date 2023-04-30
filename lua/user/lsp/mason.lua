@@ -1,6 +1,9 @@
 local servers = {
   "lua_ls",
   "rust_analyzer",
+  "tsserver",
+  "jsonls",
+  "tailwindcss"
 }
 
 local settings = {
