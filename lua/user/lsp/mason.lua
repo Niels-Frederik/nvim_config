@@ -3,7 +3,8 @@ local servers = {
   "rust_analyzer",
   "tsserver",
   "jsonls",
-  "tailwindcss"
+  "tailwindcss",
+  "bufls",
 }
 
 local settings = {
