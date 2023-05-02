@@ -2,9 +2,7 @@ local fn = vim.fn
 
 -- Automatically install packer
 local install_path = fn.stdpath "data" .. "/site/pack/packer/start/packer.nvim"
-if fn.empty(fn.glob(install_path)) > 0 then
-  PACKER_BOOTSTRAP = fn.system {
-    "git",
+if fn.empty(fn.glob(install_path)) > 0 then PACKER_BOOTSTRAP = fn.system { "git",
     "clone",
     "--depth",
     "1",
@@ -54,6 +52,7 @@ return packer.startup(function(use)
   use "akinsho/bufferline.nvim"
   use "akinsho/toggleterm.nvim"
   use 'nvim-lualine/lualine.nvim'
+  use "numToStr/Comment.nvim" -- Easily comment stuff
 
   -- completion
   use "hrsh7th/nvim-cmp" -- The completion plugin
