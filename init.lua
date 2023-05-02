@@ -11,5 +11,6 @@ require "user.lualine"
 require "user.nvim-tree"
 require "user.bufferline"
 require "user.toggleterm"
+require ("colorizer").setup()
 require ("Comment").setup()
 vim.cmd "colorscheme aurora"
